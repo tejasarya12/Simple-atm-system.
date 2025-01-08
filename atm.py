@@ -200,7 +200,7 @@ def welcome_window(user_name):
     background_label = tk.Label(window, image=background_image)
     background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
-    welcome_label = tk.Label(window, text=f"Welcome to SJCE ATM, {user_name}!", font=("Helvetica", 24, "bold"), pady=40, bg="#a0dec0")
+    welcome_label = tk.Label(window, text=f"Welcome to GCE ATM, {user_name}!", font=("Helvetica", 24, "bold"), pady=40, bg="#a0dec0")
     welcome_label.pack(side="top")  # Place label at the top
 
     select_label = tk.Label(window, text="Select a Transaction", font=("Helvetica", 20, "bold"), pady=10, bg="#b3ffec", fg="black")
